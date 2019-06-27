@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.10.0
 
 RUN apk update && \
     apk add -U openssl ca-certificates wget unzip
